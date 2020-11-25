@@ -1,0 +1,147 @@
+.site-header {
+  padding: 5px 0;
+  position: absolute;
+  width: 100%;
+  transition: background-color 0.3s ease-out;
+
+  @mixin atMedium {
+    z-index: 2;
+  }
+
+  &--is-expanded {
+    z-index: 2;
+    background-color: rgba($mainBlack, 0.7);
+  }
+
+  @mixin atMedium {
+    position: fixed;
+    background-color: rgba($mainBlack, 0.7);
+  }
+
+  &__btn-container {
+    @mixin atMedium {
+      float: right;
+      margin-top: 5px;
+    }
+  }
+
+  &__logo--text {
+    padding: 5px;
+    display: block;
+
+    &:hover {
+      background-color: rgba($mainBlack, 0.75);
+    }
+  }
+
+  &__logo {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: 50% 0;
+    padding: 13px 19px;
+
+    @mixin atMedium {
+      top: -25.5px;
+      left: auto;
+      padding: 25px 12px;
+    }
+  }
+
+  &__menu-icon {
+    width: 20px;
+    height: 19px;
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: $mainBlue;
+      transform-origin: 0 0;
+      transition: transform 0.3s ease-out;
+    }
+
+    &__middle {
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: $mainBlue;
+      transition: all 0.3s ease-out;
+      transform-origin: 0 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: $mainBlue;
+      transform-origin: 0 100%;
+      transition: transform 0.3s ease-out;
+    }
+
+    @mixin atMedium {
+      display: none;
+    }
+  }
+
+  &__menu-icon--close-x {
+    &::before {
+      transform: rotate(45deg) scaleX(1.25);
+      background-color: #fff;
+    }
+
+    .site-header__menu-icon__middle {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+
+    &::after {
+      transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+      background-color: #fff;
+    }
+  }
+
+  &__menu-content {
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: -10;
+    padding-top: 90px;
+    text-align: center;
+
+    @mixin atMedium {
+      opacity: 1;
+      z-index: 1;
+      display: block;
+      padding-top: 0;
+      transform: scale(1);
+    }
+
+    &--is-visible {
+      opacity: 1;
+      z-index: 1;
+      transform: scale(1);
+    }
+  }
+
+  &__small-header-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+}

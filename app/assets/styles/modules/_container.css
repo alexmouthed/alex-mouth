@@ -1,0 +1,18 @@
+.container {
+  overflow: hidden;
+
+  &--full-width {
+    z-index: -1;
+    max-width: 90%;
+    @mixin atMedium {
+    }
+  }
+
+  &--absolute-full {
+    max-width: 100%;
+  }
+
+  &--narrow {
+    max-width: 800px;
+  }
+}

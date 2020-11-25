@@ -1,5 +1,6 @@
 const currentTask = process.env.npm_lifecycle_event
 const path = require("path")
+const Dotenv = require("dotenv-webpack")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
@@ -10,14 +11,15 @@ const postCSSPlugins = [require("postcss-import"), require("postcss-mixins"), re
 class RunAfterCompile {
   apply(compiler) {
     compiler.hooks.done.tap("Copy images", function () {
-      fse.copySync("./app/assets/images", "./dist/assets/images")
+      fse.copySync("./app/register/flags.png", "./dist/flags.png")
+      fse.copySync("./app/register/flags@2x.png", "./dist/flags@2x.png")
     })
   }
 }
 
 let cssConfig = {
   test: /\.css$/i,
-  use: ["css-loader?url=false", { loader: "postcss-loader", options: { postcssOptions: { plugins: postCSSPlugins } } }]
+  use: ["css-loader?url=false", { loader: "postcss-loader", options: { plugins: postCSSPlugins } }]
 }
 
 let jsConfig = {
@@ -38,6 +40,11 @@ let imgConfig = {
   }
 }
 
+let svgConfig = {
+  test: /\.svg$/,
+  loader: "svg-inline-loader"
+}
+
 let config = {
   entry: "./app/assets/scripts/App.js",
   output: {
@@ -46,6 +53,9 @@ let config = {
     path: path.resolve(__dirname, "app")
   },
   plugins: [
+    new Dotenv({
+      systemvars: true
+    }),
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "app/index.html",
@@ -53,7 +63,7 @@ let config = {
     })
   ],
   module: {
-    rules: [cssConfig, jsConfig, imgConfig]
+    rules: [cssConfig, jsConfig, imgConfig, svgConfig]
   }
 }
 

@@ -1,0 +1,12 @@
+.site-footer {
+  background-color: $mainBlack;
+
+  &__text-content {
+    font-size: 0.9rem;
+  }
+}
+
+.fab {
+  font-size: 36px;
+  color: #fff;
+}
