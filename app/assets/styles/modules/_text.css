@@ -2,4 +2,8 @@
   &-storm {
     color: $storm;
   }
+
+  &--icon {
+    color: $rust;
+  }
 }

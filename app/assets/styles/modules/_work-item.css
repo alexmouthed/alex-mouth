@@ -1,0 +1,20 @@
+.work-item {
+  background-color: $fog;
+
+  &__title {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: $rust;
+  }
+
+  &__role {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: $storm;
+  }
+
+  &__date {
+    font-weight: 300;
+    color: $charcoal;
+  }
+}

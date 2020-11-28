@@ -1,3 +1,4 @@
+import { throttle } from "lodash"
 import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
@@ -12,11 +13,14 @@ function Header() {
       setNavbarBackground("site-header")
     }
   }
+
+  const scrollThrottle = throttle(runOnScroll, 200)
+
   useEffect(() => {
-    window.addEventListener("scroll", runOnScroll)
+    window.addEventListener("scroll", scrollThrottle)
 
     return () => {
-      window.removeEventListener("scroll", runOnScroll)
+      window.removeEventListener("scroll", scrollThrottle)
     }
   }, [])
 
