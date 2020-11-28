@@ -4,10 +4,6 @@
   width: 100%;
   transition: background-color 0.3s ease-out;
 
-  @mixin atMedium {
-    z-index: 2;
-  }
-
   &--is-expanded {
     z-index: 2;
     background-color: rgba($storm, 0.7);
@@ -16,6 +12,10 @@
   @mixin atMedium {
     position: fixed;
     background-color: transparent;
+    z-index: 2;
+    &--dark {
+      background-color: rgba($charcoal, 0.8);
+    }
   }
 
   &__btn-container {

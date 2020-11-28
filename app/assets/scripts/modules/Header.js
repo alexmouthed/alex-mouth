@@ -1,11 +1,27 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
 function Header() {
   const [isMobileNavActive, setIsMobileNavActive] = useState(false)
+  const [navbarBackground, setNavbarBackground] = useState("site-header")
+
+  const runOnScroll = () => {
+    if (window.scrollY > 60) {
+      setNavbarBackground("site-header site-header--dark")
+    } else {
+      setNavbarBackground("site-header")
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", runOnScroll)
+
+    return () => {
+      window.removeEventListener("scroll", runOnScroll)
+    }
+  }, [])
 
   return (
-    <header className={isMobileNavActive ? "site-header site-header--is-expanded" : "site-header"}>
+    <header className={isMobileNavActive ? "site-header site-header--is-expanded" : navbarBackground}>
       <div className="container container--full-width">
         <div className="site-header__logo">
           <h4>
@@ -35,11 +51,6 @@ function Header() {
               <li>
                 <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/about">
                   About
-                </Link>
-              </li>
-              <li>
-                <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/contact">
-                  Contact
                 </Link>
               </li>
             </ul>

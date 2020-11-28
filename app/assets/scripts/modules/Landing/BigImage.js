@@ -14,8 +14,8 @@ function BigImage() {
             Influencer <br /> Film Director <br /> Movie Maker <br /> Editor
           </p>
           <p>
-            <Link to="/print" className="btn btn--red btn-lg">
-              Get in touch
+            <Link to="/about" className="btn btn--red btn-lg">
+              About Alexmouth
             </Link>
           </p>
         </div>

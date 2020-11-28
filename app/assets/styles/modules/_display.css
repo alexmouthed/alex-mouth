@@ -17,5 +17,9 @@
     @mixin atExtraLarge {
       font-size: 2.8rem;
     }
+
+    &--fog {
+      color: $fog;
+    }
   }
 }
