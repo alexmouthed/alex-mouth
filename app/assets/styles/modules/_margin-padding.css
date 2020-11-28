@@ -1,0 +1,10 @@
+.m {
+  &t-md-0 {
+    @mixin atMedium {
+      margin-top: 0;
+    }
+  }
+}
+
+.p {
+}

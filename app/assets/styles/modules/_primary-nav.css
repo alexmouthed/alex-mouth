@@ -45,7 +45,7 @@
   }
 
   a {
-    color: $fog;
+    color: $storm;
     text-decoration: none;
     font-weight: 400;
     display: block;
@@ -58,6 +58,7 @@
     }
 
     @mixin atMedium {
+      color: $fog;
       font-size: 1rem;
       padding: 12px 0;
       background-color: transparent;
