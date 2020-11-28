@@ -1,7 +1,8 @@
 .btn {
-  background-color: $mainBlue;
+  color: #fff;
+  background-color: $storm;
 
   &--red {
-    background-color: $mainRed;
+    background-color: $rust;
   }
 }

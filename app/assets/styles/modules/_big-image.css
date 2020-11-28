@@ -1,0 +1,56 @@
+.big-image {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1572945120912-1d43ccb26fb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80") top center no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  &__bg-cover {
+    background-color: rgba($charcoal, 0.6);
+    height: 100vh;
+  }
+
+  &__text-content {
+    padding-top: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__subtitle {
+    position: relative;
+    font-weight: 400;
+    color: $yellow;
+    font-size: 1.8rem;
+    font-family: "Sansita Swashed", cursive;
+
+    @mixin atSmall {
+      font-size: 2.4rem;
+    }
+
+    @mixin atLarge {
+      font-size: 4rem;
+    }
+  }
+
+  &__description {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+    @mixin atLarge {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+    left: auto;
+    margin-left: 10px;
+    position: absolute;
+  }
+}

@@ -29,17 +29,17 @@ function Header() {
             <ul className="primary-nav--tm-md">
               <li>
                 <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/">
-                  HOME
+                  Home
                 </Link>
               </li>
               <li>
                 <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/about">
-                  ABOUT
+                  About
                 </Link>
               </li>
               <li>
                 <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/contact">
-                  CONTACT
+                  Contact
                 </Link>
               </li>
             </ul>

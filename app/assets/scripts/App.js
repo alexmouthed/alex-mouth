@@ -7,9 +7,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 // Import components
 import LoadingDotsIcon from "./modules/LoadingDotsIcon"
 import NotFound from "./modules/NotFound"
-import Test from "./modules/Test"
 import Header from "./modules/Header"
 import Footer from "./modules/Footer"
+import Landing from "./modules/Landing"
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Suspense fallback={<LoadingDotsIcon />}>
         <Switch>
           <Route path="/" exact>
-            <Test />
+            <Landing />
           </Route>
           <Route>
             <NotFound />
