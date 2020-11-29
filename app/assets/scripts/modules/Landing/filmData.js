@@ -1,4 +1,5 @@
 const filmData = [
+  { title: "Tinsel", role: "Director", date: "2008 - 2014", link: "https://en.wikipedia.org/wiki/Tinsel_(TV_series)" },
   { title: "Rescue", role: "Director", date: "2003" },
   { title: "My Mother, My marriage 1", role: "Director", date: "2004" },
   { title: "My Mother, My marriage 2", role: "Director", date: "2004" },
@@ -24,8 +25,7 @@ const filmData = [
   { title: "The Target", role: "Director", date: "2014" },
   { title: "American Driver", role: "Actor", date: "2017" },
   { title: "Memoirs Of 4", role: "Director", date: "2018" },
-  { title: "Harvey", role: "Actor", date: "2017" },
-  { title: "Tinsel", role: "Director", date: "2008 - 2014" }
+  { title: "Harvey", role: "Actor", date: "2017" }
 ]
 
 export default filmData

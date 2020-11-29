@@ -21,10 +21,10 @@
 
   &__subtitle {
     position: relative;
-    font-weight: 400;
+    font-weight: 600;
     color: $yellow;
     font-size: 1.8rem;
-    font-family: "Sansita Swashed", cursive;
+    font-family: "Dosis", sans-serif;
 
     @mixin atSmall {
       font-size: 2.4rem;
@@ -38,7 +38,7 @@
   &__description {
     color: #fff;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     @mixin atSmall {
       font-size: 2rem;
     }
@@ -48,7 +48,13 @@
   }
 
   &__icon {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    @mixin atSmall {
+      font-size: 1.3rem;
+    }
+    @mixin atLarge {
+      font-size: 1.5rem;
+    }
     left: auto;
     margin-left: 10px;
     position: absolute;
