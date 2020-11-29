@@ -26,7 +26,7 @@ function BriefDescription() {
           <h3 className="display-4 text-center">AS SEEN IN</h3>
         </Fade>
         <Fade>
-          <div className="row py-5 px-3 rounded">
+          <div className="row py-sm-5 px-3 rounded">
             <div className="col-sm img--small align-self-center text--hover">
               <a href="https://www.starnow.com/alexmouth/">
                 <img src={starnow} alt="My Starnow profile" />
