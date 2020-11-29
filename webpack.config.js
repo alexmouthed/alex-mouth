@@ -8,15 +8,6 @@ const fse = require("fs-extra")
 
 const postCSSPlugins = [require("postcss-import"), require("postcss-mixins"), require("postcss-simple-vars"), require("postcss-nested"), require("postcss-hexrgba"), require("autoprefixer")]
 
-class RunAfterCompile {
-  apply(compiler) {
-    compiler.hooks.done.tap("Copy images", function () {
-      fse.copySync("./app/register/flags.png", "./dist/flags.png")
-      fse.copySync("./app/register/flags@2x.png", "./dist/flags@2x.png")
-    })
-  }
-}
-
 let cssConfig = {
   test: /\.css$/i,
   use: ["css-loader?url=false", { loader: "postcss-loader", options: { plugins: postCSSPlugins } }]
@@ -95,7 +86,7 @@ if (currentTask == "build") {
   config.optimization = {
     splitChunks: { chunks: "all" }
   }
-  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }), new RunAfterCompile())
+  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }))
 }
 
 module.exports = config
