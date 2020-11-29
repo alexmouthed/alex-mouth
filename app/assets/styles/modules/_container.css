@@ -4,8 +4,6 @@
   &--full-width {
     z-index: -1;
     max-width: 78%;
-    @mixin atMedium {
-    }
   }
 
   &--absolute-full {

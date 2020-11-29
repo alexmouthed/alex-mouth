@@ -1,11 +1,19 @@
 .page-section {
   padding: 1.2rem 0;
 
+  &--more-p {
+    padding: 4rem 0;
+  }
+
   @mixin atMedium {
     padding: 4.5rem 0;
   }
 
   &--storm {
     background-color: $storm;
+  }
+
+  &-min-full {
+    min-height: 100vh;
   }
 }

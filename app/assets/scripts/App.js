@@ -10,6 +10,8 @@ import NotFound from "./modules/NotFound"
 import Header from "./modules/Header"
 import Footer from "./modules/Footer"
 import Landing from "./modules/Landing"
+import About from "./modules/About"
+import Contact from "./modules/Contact"
 
 function App() {
   return (
@@ -19,6 +21,12 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Landing />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route>
             <NotFound />
