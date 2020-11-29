@@ -1,34 +1,31 @@
 const filmData = [
-  {
-    title: "Murder at prime suites",
-    role: "Actor",
-    date: "August 2013"
-  },
-  {
-    title: "Tinsel",
-    role: "Director",
-    date: "October 2008"
-  },
-  {
-    title: "Murder at prime suites1",
-    role: "Actor",
-    date: "August 2013"
-  },
-  {
-    title: "Tinsel1",
-    role: "Director",
-    date: "October 2008"
-  },
-  {
-    title: "Murder at prime suites2",
-    role: "Actor",
-    date: "August 2013"
-  },
-  {
-    title: "Tinsel2",
-    role: "Director",
-    date: "October 2008"
-  }
+  { title: "Rescue", role: "Director", date: "2003" },
+  { title: "My Mother, My marriage 1", role: "Director", date: "2004" },
+  { title: "My Mother, My marriage 2", role: "Director", date: "2004" },
+  { title: "Endless Night", role: "Director", date: "2005" },
+  { title: "Stand Together 1", role: "Director", date: "2005" },
+  { title: "Stand Together 2", role: "Director", date: "2005" },
+  { title: "Immoral Act 1", role: "Director", date: "2005" },
+  { title: "Immoral act 2", role: "Director", date: "2005" },
+  { title: "The Revelation", role: "Director", date: "2011" },
+  { title: "My Vote Fit Change Naija", role: "Director", date: "2011" },
+  { title: "Covert Operations", role: "Director", date: "2013" },
+  { title: "Strive", role: "Director", date: "2013" },
+  { title: "murder at prime suite", role: "Director", date: "2013" },
+  { title: "Folly", role: "Director", date: "2013" },
+  { title: "11AM", role: "Director", date: "2013" },
+  { title: "Laugh Wan Kill Me Die", role: "Director", date: "2013" },
+  { title: "Moving On", role: "Director", date: "2013" },
+  { title: "PROTEGE", role: "Director", date: "2013" },
+  { title: "Silence", role: "Director", date: "2013" },
+  { title: "Towo Tomo", role: "Director", date: "2013" },
+  { title: "Wine For Chocolate", role: "Director", date: "2014" },
+  { title: "Somewhere Down The Line", role: "Director", date: "2014" },
+  { title: "The Target", role: "Director", date: "2014" },
+  { title: "American Driver", role: "Actor", date: "2017" },
+  { title: "Memoirs Of 4", role: "Director", date: "2018" },
+  { title: "Harvey", role: "Actor", date: "2017" },
+  { title: "Tinsel", role: "Director", date: "2008 - 2014" }
 ]
 
 export default filmData
