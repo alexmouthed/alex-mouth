@@ -1,0 +1,17 @@
+.side-nav {
+  display: none;
+
+  @mixin atMedium {
+    display: block;
+  }
+  &__links {
+    display: block;
+    line-height: 1.65rem;
+    color: $charcoal;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

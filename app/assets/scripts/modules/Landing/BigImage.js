@@ -8,14 +8,14 @@ function BigImage() {
       <div className="big-image__bg-cover">
         <div className="big-image__text-content">
           <h3 className="big-image__subtitle">
-            ALEXMOUTH <span className="big-image__icon">{SvgImg.tradeMark}</span>
+            ALEX MOUTH <span className="big-image__icon">{SvgImg.tradeMark}</span>
           </h3>
           <p className="big-image__description">
             Influencer <br /> Film Director <br /> Movie Maker <br /> Editor
           </p>
           <p>
             <Link to="/about" className="btn btn--red btn-lg">
-              About Alexmouth
+              About Alex Mouth
             </Link>
           </p>
         </div>

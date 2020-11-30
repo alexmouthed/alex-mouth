@@ -30,7 +30,9 @@ function Header() {
         <div className="site-header__logo">
           <h4>
             <Link className="site-header__logo--text" to="/">
-              <h3>Alexmouth</h3>
+              <h3>
+                Alex <span className="text--sansita">Mouth</span>
+              </h3>
             </Link>
           </h4>
         </div>

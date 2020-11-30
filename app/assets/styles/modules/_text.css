@@ -7,6 +7,17 @@
     color: $rust;
   }
 
+  &--sansita {
+    font-family: "Sansita Swashed", cursive;
+    color: $rust;
+  }
+
+  &--no-decoration {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   &--hover {
     &:hover {
       transform: scale(0.55);

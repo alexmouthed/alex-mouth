@@ -18,6 +18,10 @@
     background-color: $storm;
   }
 
+  &--description {
+    position: relative;
+  }
+
   &-min-full {
     min-height: 100vh;
   }
