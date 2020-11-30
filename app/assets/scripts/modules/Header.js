@@ -29,8 +29,8 @@ function Header() {
       <div className="container container--full-width">
         <div className="site-header__logo">
           <h4>
-            <Link className="site-header__logo--text" to="/">
-              <h3>
+            <Link to="/">
+              <h3 className="site-header__logo--text">
                 Alex <span className="text--sansita">Mouth</span>
               </h3>
             </Link>

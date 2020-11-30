@@ -7,16 +7,18 @@ function Footer() {
     <footer className="site-footer">
       <div className="container pt-4">
         <h4 className="text-center">
-          <Link className="site-header__logo--text" to="/">
-            <h3>Alexmouth</h3>
+          <Link to="/">
+            <h3 className="site-header__logo--text">
+              Alex <span className="text--sansita">Mouth</span>
+            </h3>
           </Link>
         </h4>
         <hr className="my-2 bg-light" />
         <div className="col-md-3 mb-4 mx-auto d-flex justify-content-between">
-          <Link to="/">{SvgImg.facebook}</Link>
-          <Link to="/">{SvgImg.twitter}</Link>
-          <Link to="/">{SvgImg.instagram}</Link>
-          <Link to="/">{SvgImg.linkedin}</Link>
+          <a href="https://www.facebook.com/leggiagency">{SvgImg.facebook}</a>
+          <a href="/">{SvgImg.twitter}</a>
+          <a href="https://www.instagram.com/engraved_arts/">{SvgImg.instagram}</a>
+          <a href="https://www.linkedin.com/in/alex-mouth-54a905179/">{SvgImg.linkedin}</a>
         </div>
         <div className="text-center py-3">
           <small className="text-light lead site-footer__text-content">Copyright &copy; 2020 Alexmouth. All rights reserved. </small>

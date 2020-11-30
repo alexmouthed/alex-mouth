@@ -3,6 +3,11 @@
 
   @mixin atMedium {
     display: block;
+    padding: 10px;
+    background-color: rgba($rust, 0.5);
+  }
+  &__title {
+    color: $storm;
   }
   &__links {
     display: block;

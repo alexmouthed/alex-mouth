@@ -3,6 +3,19 @@
     color: $storm;
   }
 
+  &-rust {
+    color: $rust;
+  }
+
+  &-handles {
+    color: $yellow;
+    font-weight: 600;
+    &:hover {
+      text-decoration: none;
+      color: $fog;
+    }
+  }
+
   &--icon {
     color: $rust;
   }
