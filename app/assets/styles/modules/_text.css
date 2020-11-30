@@ -3,6 +3,14 @@
     color: $storm;
   }
 
+  &-1 {
+    font-size: 1.3rem;
+  }
+
+  &-1-5 {
+    font-size: 1.5rem;
+  }
+
   &-rust {
     color: $rust;
   }

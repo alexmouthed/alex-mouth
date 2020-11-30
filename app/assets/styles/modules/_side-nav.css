@@ -4,7 +4,7 @@
   @mixin atMedium {
     display: block;
     padding: 10px;
-    background-color: rgba($rust, 0.5);
+    background-color: rgba($rust, 0.3);
   }
   &__title {
     color: $storm;

@@ -1,0 +1,7 @@
+.about {
+  &__image {
+    border: 5px solid $fog;
+    display: block;
+    border-radius: 50%;
+  }
+}
