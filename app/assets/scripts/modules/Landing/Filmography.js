@@ -12,13 +12,13 @@ function Filmography() {
           <span className="text--icon">{SvgImg.film}</span> Filmography
         </h3>
       </Zoom>
-      <div className="container">
-        <div className="row justify-content-between">
+      <div className="px-sm-3">
+        <div className="work-item__container justify-content-between">
           {filmData.map((item, index) => {
             if (index % 2 === 0) {
-              return <WorkItem key={item.title} left={true} item={{ title: item.title, role: item.role, date: item.date, link: item.link }} />
+              return <WorkItem key={item.title} left={true} item={{ title: item.title, role: item.role, date: item.date, link: item.link, image: item.image ? item.image : null }} />
             } else {
-              return <WorkItem key={item.title} item={{ title: item.title, role: item.role, date: item.date, link: item.link }} />
+              return <WorkItem key={item.title} item={{ title: item.title, role: item.role, date: item.date, link: item.link, image: item.image ? item.image : null }} />
             }
           })}
         </div>

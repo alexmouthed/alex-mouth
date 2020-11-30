@@ -1,10 +1,21 @@
 .work-item {
   background-color: $fog;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px;
+  overflow: hidden;
 
   &__title {
     font-weight: 500;
     font-size: 1.3rem;
     color: $rust;
+  }
+
+  &__container {
+    width: 100%;
+    margin: 20px auto;
+    columns: 2;
+    column-gap: 40px;
   }
 
   &__role {
