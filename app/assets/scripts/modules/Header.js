@@ -1,6 +1,7 @@
 import { throttle } from "lodash"
 import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import SideNav from "./SideNav"
 
 function Header() {
   const [isMobileNavActive, setIsMobileNavActive] = useState(false)
@@ -60,6 +61,9 @@ function Header() {
                 </Link>
               </li>
             </ul>
+            <div className="d-md-none">
+              <SideNav />
+            </div>
           </nav>
         </div>
       </div>

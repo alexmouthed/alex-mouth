@@ -4,7 +4,6 @@ function SideNav() {
   return (
     <div className="side-nav rounded">
       <h3 className="display-4 side-nav__title">Updates</h3>
-      <hr />
       <a href="https://www.strangetroublesthefilm.com/" className="side-nav__links">
         Project in progreses
       </a>

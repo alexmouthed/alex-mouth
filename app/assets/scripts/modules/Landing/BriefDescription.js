@@ -11,28 +11,28 @@ function BriefDescription() {
   return (
     <div className="page-section page-section--description container">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-5 col-lg-3 d-none d-md-block">
           <SideNav />
         </div>
-        <div className="col-md-9">
+        <div className="col-md-7 col-lg-9">
           <div className="row px-3">
             <Fade>
-              <div className="col-md align-self-center">
-                <img className="img-fluid" sizes="637px" src={alexMouth} alt="Alexmouth" />
+              <div className="col-lg align-self-center">
+                <img className="img-thumbnail img-fluid" sizes="637px" src={alexMouth} alt="Alexmouth" />
               </div>
             </Fade>
             <Fade>
-              <div className="col-md align-self-center pl-lg-5 mt-3 mt-md-0">
+              <div className="col-lg align-self-center pl-lg-5 mt-3 mt-md-0">
                 <h3 className="display-4 text-storm">Alex Mouth is a renowned film director and a movie maker popularly known for his strong reputation in the industry.</h3>
               </div>
             </Fade>
           </div>
-          <div className="col-md-8 mx-auto py-5">
+          <div className="col-xl-8 mx-auto py-5">
             <Fade left>
               <h3 className="display-4 text-center">AS SEEN IN</h3>
             </Fade>
             <Fade>
-              <div className="row py-sm-3 px-3 rounded">
+              <div className="row py-sm-3 rounded">
                 <div className="col-sm img--small align-self-center text--hover">
                   <a href="https://www.starnow.com/alexmouth/">
                     <img src={starnow} alt="My Starnow profile" />

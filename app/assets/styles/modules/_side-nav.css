@@ -1,20 +1,30 @@
 .side-nav {
-  display: none;
-
   @mixin atMedium {
     display: block;
     padding: 10px;
-    background-color: rgba($rust, 0.3);
+    background-color: rgba($charcoal, 1);
   }
   &__title {
-    color: $storm;
+    margin-top: 20px;
+    color: $fog;
+
+    @mixin atMedium {
+      margin-top: 0;
+    }
   }
   &__links {
     display: block;
+    margin-bottom: 1rem;
     font-size: 1.1rem;
     color: $charcoal;
     text-decoration: none;
-    padding-bottom: 0.7rem;
+    padding: 0.35rem;
+    border-radius: 5px;
+
+    @mixin atMedium {
+      margin-bottom: 0.3rem;
+      background-color: rgba(#fff, 0.9);
+    }
 
     &:hover {
       text-decoration: none;
