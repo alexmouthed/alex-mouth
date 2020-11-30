@@ -6,7 +6,7 @@ function WorkItem(props) {
     return (
       <Fade left>
         <div className="work-item py-3 rounded px-4 my-3 col-md-5">
-          <a className="text--no-decoration" href="https://www.google.com">
+          <a className="text--no-decoration" href={props.item.link}>
             <h2 className="work-item__title">{props.item.title}</h2>
             <h3 className="work-item__role">Role: {props.item.role}</h3>
             <span className="work-item__date">Released {props.item.date}</span>
@@ -18,7 +18,7 @@ function WorkItem(props) {
     return (
       <Fade right>
         <div className="work-item py-3 rounded px-4 my-3 col-md-5">
-          <a className="text--no-decoration" href="https://www.google.com">
+          <a className="text--no-decoration" href={props.item.link}>
             <h2 className="work-item__title">{props.item.title}</h2>
             <h3 className="work-item__role">Role: {props.item.role}</h3>
             <span className="work-item__date">Released {props.item.date}</span>

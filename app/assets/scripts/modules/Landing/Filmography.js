@@ -16,9 +16,9 @@ function Filmography() {
         <div className="row justify-content-between">
           {filmData.map((item, index) => {
             if (index % 2 === 0) {
-              return <WorkItem key={item.title} left={true} item={{ title: item.title, role: item.role, date: item.date }} />
+              return <WorkItem key={item.title} left={true} item={{ title: item.title, role: item.role, date: item.date, link: item.link }} />
             } else {
-              return <WorkItem key={item.title} item={{ title: item.title, role: item.role, date: item.date }} />
+              return <WorkItem key={item.title} item={{ title: item.title, role: item.role, date: item.date, link: item.link }} />
             }
           })}
         </div>

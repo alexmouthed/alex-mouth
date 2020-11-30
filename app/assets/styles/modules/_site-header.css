@@ -25,14 +25,17 @@
     }
   }
 
+  &__logo--link {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   &__logo--text {
     font-size: 1.3rem;
     padding: 5px;
     display: block;
     color: $fog;
-    &:hover {
-      text-decoration: none;
-    }
 
     @mixin atSmall {
       font-size: 1.5rem;

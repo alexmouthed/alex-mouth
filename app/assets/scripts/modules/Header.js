@@ -30,7 +30,7 @@ function Header() {
       <div className="container container--full-width">
         <div className="site-header__logo">
           <h4>
-            <Link to="/">
+            <Link className="site-header__logo--link" to="/">
               <h3 className="site-header__logo--text">
                 Alex <span className="text--sansita">Mouth</span>
               </h3>

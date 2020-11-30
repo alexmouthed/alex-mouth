@@ -7,7 +7,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="container pt-4">
         <h4 className="text-center">
-          <Link to="/">
+          <Link className="site-header__logo--link" to="/">
             <h3 className="site-header__logo--text">
               Alex <span className="text--sansita">Mouth</span>
             </h3>
