@@ -13,6 +13,14 @@ let cssConfig = {
   use: ["css-loader?url=false", { loader: "postcss-loader", options: { plugins: postCSSPlugins } }]
 }
 
+class RunAfterCompile {
+  apply(compiler) {
+    compiler.hooks.done.tap("Copy images", function () {
+      fse.copySync("./app/favicon.ico", "./dist/favicon.ico")
+    })
+  }
+}
+
 let jsConfig = {
   test: /\.js$/,
   exclude: /(node_modules)/,
@@ -86,7 +94,7 @@ if (currentTask == "build") {
   config.optimization = {
     splitChunks: { chunks: "all" }
   }
-  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }))
+  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }), new RunAfterCompile())
 }
 
 module.exports = config
