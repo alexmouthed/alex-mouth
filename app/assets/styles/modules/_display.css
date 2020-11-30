@@ -1,22 +1,22 @@
 .display {
   &-4 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 400;
 
     @mixin atSmall {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
 
     @mixin atMedium {
-      font-size: 2.1rem;
+      font-size: 1.5rem;
     }
 
     @mixin atLarge {
-      font-size: 2.4rem;
+      font-size: 2rem;
     }
 
     @mixin atExtraLarge {
-      font-size: 2.8rem;
+      font-size: 2.4rem;
     }
 
     &--fog {

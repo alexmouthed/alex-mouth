@@ -11,10 +11,10 @@ function BriefDescription() {
   return (
     <div className="page-section page-section--description container">
       <div className="row">
-        <div className="col-md-2">
+        <div className="col-md-3">
           <SideNav />
         </div>
-        <div className="col-md-10">
+        <div className="col-md-9">
           <div className="row px-3">
             <Fade>
               <div className="col-md align-self-center">
@@ -32,7 +32,7 @@ function BriefDescription() {
               <h3 className="display-4 text-center">AS SEEN IN</h3>
             </Fade>
             <Fade>
-              <div className="row py-sm-5 px-3 rounded">
+              <div className="row py-sm-3 px-3 rounded">
                 <div className="col-sm img--small align-self-center text--hover">
                   <a href="https://www.starnow.com/alexmouth/">
                     <img src={starnow} alt="My Starnow profile" />

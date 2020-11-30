@@ -11,9 +11,10 @@
   }
   &__links {
     display: block;
-    line-height: 1.65rem;
+    font-size: 1.1rem;
     color: $charcoal;
     text-decoration: none;
+    padding-bottom: 0.7rem;
 
     &:hover {
       text-decoration: none;

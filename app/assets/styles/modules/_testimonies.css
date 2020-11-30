@@ -1,0 +1,21 @@
+.testimonies {
+  background-color: #e0e6ef;
+
+  &__content {
+    margin-top: 7rem;
+  }
+
+  @mixin atLarge {
+    background: url("https://images.unsplash.com/photo-1606592641984-c9a1506d0705?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80") top center no-repeat;
+    background-size: cover;
+  }
+
+  &__title {
+    color: $storm;
+    font-size: 2.4rem;
+
+    @mixin atMedium {
+      font-size: 3.5rem;
+    }
+  }
+}
