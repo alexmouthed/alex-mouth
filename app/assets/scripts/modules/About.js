@@ -27,31 +27,31 @@ function About() {
         </div>
         <div className="col-md-8 mx-auto">
           <Fade>
-            <p className="lead text-justify px-md-1">Alex mouth is a seasoned film director, editor, and producer whose accomplishment in the movie industry is astonishing.</p>
+            <p className="lead text-justify px-md-1">Alex mouth is a seasoned film director, editor, producer with astonishing accomplishment in the entertainment industry.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">He's also a Certified Information Systems Auditor and controls specialist with years of experience in management information systems audit and risk assessment. In-depth knowledge of Sarbanes-Oxley Act (SOX), HIPAA, Control assessment, IT General Controls (ITGC), SSAE18 attestation, PCI DSS, NIST 800-53 and ERP security assessments using COBIT frameworks. Proven track record assessing system security and data integrity and to identify, manage and reduce vulnerabilities and ensure general compliance. Extensive background in all stages of an audit including planning, risk assessment, evaluating, testing of controls, report writing, and follow-up.</p>
+            <p className="lead text-justify px-md-1">He was the CEO of Blast Media, a production and Artist management firm that produced films, music videos, stages events and managed the likes of Sheila Kwamboka of Big Brother Africa and noted actresses like Lilian Esoro.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">A results oriented Scrum Master with years of experience in software development and implementations for internal, external and offshore clients. Strong skills in requirements gathering, business process improvement, user experience, writing user stories, data analytic, database management and Agile/Lean transformation for education, information technology, oil and gas, health care and financial services.</p>
+            <p className="lead text-justify px-md-1">In 2012, he produced and directed the advocacy film ‘My Vote Counts’, a 15 minute Voters Education Video starring Nollywood entertainers like Julius Agwu, Adaora Ukoh and 2shot. The film was commissioned by USAID Nigeria and was premiered at the Ambassador's Compound in Abuja. Attendees included the US Ambassador to Nigeria, the U.S. Under Secretary of State and other American and Nigerian delegates.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">Alex was one of the directors of Nigeria's most popular TV Soap Opera, Tinsel (TV Series), produced by South African conglomerate Multichoice.</p>
+            <p className="lead text-justify px-md-1">Alex's television projects include Idols MTN Project Fame-2008, popular talk show, Moments with Mo, World Miss University Nigeria 2007-2008, Play Vibes - 2007 and D Gospel - 2006. Alex also directed the documentary After Conflict (for the British Council of Nigeria).</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">In 2011, Alex Mouth produced and directed the advocacy film 'My Vote Fit Change Naija[1 1]', a 15-minute Voters Education Video starring Nollywood entertainers. The film was commissioned by NDI and was premiered at the Ambassador's Compound in Abuja.</p>
+            <p className="lead text-justify px-md-1">Apart from being a renowned film director, Alex is also a result oriented Scrum Master with years of experience in software development and implementations for internal, external and offshore clients. He possesses strong skills in requirements gathering, business process improvement, user experience, writing user stories, data analytic, database management and Agile/Lean transformation for education, information technology, oil and gas, health care and financial services.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">Alex Mouth's television projects include Idols MTN Project Fame-2008, popular talk show, Moments with Mo, World Miss University Nigeria 2007-2008, Play Vibes - 2007 and D Gospel - 2006. Alex also directed the documentary After Conflict (for the British Council of Nigeria).</p>
+            <p className="lead text-justify px-md-1">A flexible and versatile man, hes also a Certified Information Systems Auditor and controls specialist with years of experience in management information systems audit and risk assessment.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">Alex Mouth Directorial debut began in the year 2001 creating Nollywood films.</p>
+            <p className="lead text-justify px-md-1">Alex mouth is a fun man, easy to work with and a result oriented director whose accomplishments precedes him everywhere he has worked.</p>
           </Fade>
         </div>
       </div>
