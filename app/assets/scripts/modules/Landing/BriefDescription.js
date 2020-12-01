@@ -29,7 +29,7 @@ function BriefDescription() {
           </div>
           <div className="col-xl-8 mx-auto py-5">
             <Fade left>
-              <h3 className="display-4 text-center">AS SEEN IN</h3>
+              <h3 className="display-4 text-center">AS SEEN ON</h3>
             </Fade>
             <Fade>
               <div className="row py-sm-3 rounded">

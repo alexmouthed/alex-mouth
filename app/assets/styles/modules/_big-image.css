@@ -36,9 +36,16 @@
   }
 
   &__description {
-    color: #fff;
     font-size: 1.5rem;
     font-weight: 400;
+
+    a {
+      color: $fog;
+      &:hover {
+        text-decoration: none;
+        color: $rust;
+      }
+    }
     @mixin atSmall {
       font-size: 2rem;
     }
