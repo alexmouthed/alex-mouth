@@ -15,11 +15,9 @@ function BigImage() {
             <a href="https://vimeo.com/172918950"> Film Director</a> <br /> <a href="https://vimeo.com/208876711">Movie Maker</a> <br /> <a href="https://vimeo.com/172918950">Editor</a>
           </p>
           <p>
-            <a href="#about-alex" className="text-yellow btn-scroll">
-              {SvgImg.arrow}
+            <a href="#about-alex" className="btn btn--yellow">
+              More about Alex Mouth
             </a>
-            <br />
-            <span className="pt-3 d-block lead font-weight-bold text-white">More about Alex Mouth</span>
           </p>
         </div>
       </div>
