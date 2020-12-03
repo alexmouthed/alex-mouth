@@ -64,7 +64,7 @@ function BriefDescription() {
           {SvgImg.arrow}
         </a>
         <br />
-        <span className="pt-3 d-block lead font-weight-bold">Look at what we've made</span>
+        <span className="pt-3 d-block lead font-weight-bold">Look what we've created</span>
       </p>
     </div>
   )
