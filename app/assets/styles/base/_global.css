@@ -31,3 +31,15 @@ a {
 .height-min {
   min-height: 100vh;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  @mixin atMedium {
+    color: white !important;
+  }
+}
+
+.slick-dots li button:before {
+  color: $yellow !important;
+}
