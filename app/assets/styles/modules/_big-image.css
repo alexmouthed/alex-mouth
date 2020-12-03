@@ -40,7 +40,7 @@
     font-weight: 400;
 
     a {
-      color: $fog;
+      color: #fff;
       &:hover {
         text-decoration: none;
         color: $rust;

@@ -2,6 +2,12 @@
   color: #fff;
   background-color: $storm;
 
+  &-scroll {
+    &:hover {
+      color: $rust;
+    }
+  }
+
   &--red {
     background-color: $rust;
   }

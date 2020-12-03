@@ -10,6 +10,12 @@
     max-width: 100%;
   }
 
+  &--border {
+    @mixin atMedium {
+      overflow: visible;
+    }
+  }
+
   &--narrow {
     max-width: 800px;
   }

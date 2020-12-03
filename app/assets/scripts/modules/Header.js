@@ -45,7 +45,7 @@ function Header() {
         <div className={isMobileNavActive ? "site-header__menu-content site-header__menu-content--is-visible" : "site-header__menu-content"}>
           <div className="site-header__btn-container">
             <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/contact" className="btn btn--red">
-              Get in touch
+              Book me
             </Link>
           </div>
           <nav className="primary-nav primary-nav--pull-right">

@@ -6,10 +6,11 @@ import vimeo from "../../../images/vimeo-logo.png"
 import pulse from "../../../images/pulse-nigeria.png"
 import imdb from "../../../images/imdb.png"
 import SideNav from "../SideNav"
+import SvgImg from "../SVGIMG"
 
 function BriefDescription() {
   return (
-    <div className="page-section page-section--description container">
+    <div id="about-alex" className="page-section height-min page-section--description container">
       <div className="row">
         <div className="col-md-5 col-lg-3 d-none d-md-block">
           <SideNav />
@@ -58,6 +59,13 @@ function BriefDescription() {
           </div>
         </div>
       </div>
+      <p className="text-center">
+        <a href="#look-what-we-made" className="text-storm btn-scroll">
+          {SvgImg.arrow}
+        </a>
+        <br />
+        <span className="pt-3 d-block lead font-weight-bold">Look at what we've made</span>
+      </p>
     </div>
   )
 }

@@ -27,3 +27,7 @@ img {
 a {
   color: $rust;
 }
+
+.height-min {
+  min-height: 100vh;
+}

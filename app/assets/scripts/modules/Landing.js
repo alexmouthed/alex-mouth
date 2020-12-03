@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import BigImage from "./Landing/BigImage"
 import BriefDescription from "./Landing/BriefDescription"
 import Filmography from "./Landing/Filmography"
-import Testimonials from "./Landing/Testimonials"
+import Slide from "./Landing/Slide"
 import Page from "./Page"
 
 function Landing() {
@@ -10,7 +10,7 @@ function Landing() {
     <Page title="Home">
       <BigImage />
       <BriefDescription />
-      {/* <Testimonials /> */}
+      <Slide />
       <Filmography />
     </Page>
   )

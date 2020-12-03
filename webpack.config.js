@@ -16,6 +16,7 @@ let cssConfig = {
 class RunAfterCompile {
   apply(compiler) {
     compiler.hooks.done.tap("Copy images", function () {
+      fse.copySync("./app/fonts", "./dist/fonts")
       fse.copySync("./app/favicon.ico", "./dist/favicon.ico")
     })
   }
