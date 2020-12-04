@@ -11,8 +11,7 @@ function BigImage() {
             ALEX MOUTH <span className="big-image__icon">{SvgImg.tradeMark}</span>
           </h3>
           <p className="big-image__description">
-            <a href="https://vimeo.com/172918950">Influencer</a> <br />
-            <a href="https://vimeo.com/172918950"> Film Director</a> <br /> <a href="https://vimeo.com/208876711">Movie Maker</a> <br /> <a href="https://vimeo.com/172918950">Editor</a>
+            <a href="https://vimeo.com/172918950"> Film Director</a>
           </p>
           <p>
             <a href="#about-alex" className="btn btn--yellow">
