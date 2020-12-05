@@ -31,27 +31,31 @@ function About() {
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">He was the CEO of Blast Media, a production and Artist management firm that produced films, music videos, stages events and managed the likes of Sheila Kwamboka of Big Brother Africa and noted actresses like Lilian Esoro.</p>
+            <p className="lead text-justify px-md-1">He was the CEO of Blast Media, a production and Artist management firm that produced films, music videos, stages events. At Blast media, Alex worked with a lot of notable stars in today's entertainment industry including the likes of Sheila Kwamboka of Big Brother Africa and noted Nollywood star Lilian Esoro.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">In 2012, he produced and directed the advocacy film ‘My Vote Counts’, a 15 minute Voters Education Video starring Nollywood entertainers like Julius Agwu, Adaora Ukoh and 2shot. The film was commissioned by USAID Nigeria and was premiered at the Ambassador's Compound in Abuja. Attendees included the US Ambassador to Nigeria, the U.S. Under Secretary of State and other American and Nigerian delegates.</p>
+            <p className="lead text-justify px-md-1">In 2012, he produced and directed a 15minutes Voters Education Video titled 'My Vote Counts'. The advocacy film stars veteran Nollywood entertainers like Julius Agwu, Adaorah Ukoh and 2shot. The film was internationally lauded and recognized and it was commissioned by USAID Nigeria and was premiered on the Ambassador's Compound in Abuja. In attendance were important personalities from including the U.S Ambassador to Nigeria, the U.S Under Secretary of State and other American and Nigerian delegates.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">Alex's television projects include Idols MTN Project Fame-2008, popular talk show, Moments with Mo, World Miss University Nigeria 2007-2008, Play Vibes - 2007 and D Gospel - 2006. Alex also directed the documentary After Conflict (for the British Council of Nigeria).</p>
+            <p className="lead text-justify px-md-1">He has directed many critically acclaimed movies in the Nigerian movie industry including Silence, a film that won the BON award for Movie of the year. Also working with notable entertainment companies like Multichoice and M net, he was one of the directors of the longest running television series in Nigeria, Tinsel which was positively received and was an economic success. He also continued to work with M NET and Multichoice on many other movies and shows.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">Apart from being a renowned film director, Alex is also a result oriented Scrum Master with years of experience in software development and implementations for internal, external and offshore clients. He possesses strong skills in requirements gathering, business process improvement, user experience, writing user stories, data analytic, database management and Agile/Lean transformation for education, information technology, oil and gas, health care and financial services.</p>
+            <p className="lead text-justify px-md-1">For television, he was the director of the novel season of the MTN Project Fame-2008 and other popular shows like the Popular Talk Show, Moments with Mo, World Miss University Nigeria 2007-2008, Play Vibesc-:2007 and D Gospel -:2006. Alex also directed the documentary, After Conflict (for the British Council of Nigeria).</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">A flexible and versatile man, hes also a Certified Information Systems Auditor and controls specialist with years of experience in management information systems audit and risk assessment.</p>
+            <p className="lead text-justify px-md-1">Apart from being a renowned film director, Alex is also a result-oriented Scrum Master with years of experience in software development and implementations for internal, external and offshore clients. He is a very good motivator and a focused leader who encourages the spirit of teamwork and efficiency among teammates.</p>
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">Alex mouth is a fun man, easy to work with and a result oriented director whose accomplishments precedes him everywhere he has worked.</p>
+            <p className="lead text-justify px-md-1">A flexible and versatile man, he is also a Certified Information Systems Auditor and controls specialist with years of experience in management information systems audit and risk assessment.</p>
+          </Fade>
+
+          <Fade>
+            <p className="lead text-justify px-md-1">Alex mouth is a fun man, easy to work with and a result-oriented director whose accomplishments precedes him everywhere he has worked.</p>
           </Fade>
         </div>
       </div>
