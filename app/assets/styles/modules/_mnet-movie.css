@@ -1,0 +1,18 @@
+.mnet-movie {
+  background-color: #fff;
+  height: 100%;
+  &__title {
+    color: $storm;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  &__subtitle {
+    color: $rust;
+
+    &--date {
+      color: $charcoal;
+      font-size: 1rem;
+    }
+  }
+}

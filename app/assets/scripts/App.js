@@ -12,6 +12,8 @@ import Footer from "./modules/Footer"
 import Landing from "./modules/Landing"
 import About from "./modules/About"
 import Contact from "./modules/Contact"
+import VideoReel from "./modules/VideoReel"
+import Mnet from "./modules/Mnet"
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/video-reel">
+            <VideoReel />
+          </Route>
+          <Route path="/mnet-movies">
+            <Mnet />
           </Route>
           <Route>
             <NotFound />

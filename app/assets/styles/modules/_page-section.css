@@ -9,6 +9,10 @@
     padding: 4.5rem 0;
   }
 
+  &--grey {
+    background-color: rgba($charcoal, 1);
+  }
+
   &--contact {
     background: url("https://images.unsplash.com/photo-1516348967042-25fa96938f37?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1637&q=80") top center no-repeat;
     background-size: cover;

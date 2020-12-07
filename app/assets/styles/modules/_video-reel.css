@@ -1,0 +1,9 @@
+.video-reel {
+  &__link {
+    color: $fog;
+    &:hover {
+      text-decoration: none;
+      color: $rust;
+    }
+  }
+}

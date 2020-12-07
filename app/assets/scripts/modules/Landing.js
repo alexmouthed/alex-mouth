@@ -7,7 +7,7 @@ import Page from "./Page"
 
 function Landing() {
   return (
-    <Page title="Home">
+    <Page scroll={true} title="Home">
       <BigImage />
       <BriefDescription />
       <Slide />

@@ -2,4 +2,7 @@
   &-yellow {
     background-color: rgba($yellow, 0.4);
   }
+  &-black {
+    background-color: rgba($charcoal, 0.8);
+  }
 }

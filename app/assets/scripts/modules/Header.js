@@ -60,6 +60,16 @@ function Header() {
                   About
                 </Link>
               </li>
+              <li>
+                <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/video-reel">
+                  Video Reel
+                </Link>
+              </li>
+              <li>
+                <Link onClick={() => setIsMobileNavActive(!isMobileNavActive)} to="/mnet-movies">
+                  MNET Collections
+                </Link>
+              </li>
             </ul>
             <div className="d-md-none">
               <SideNav />
