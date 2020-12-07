@@ -35,22 +35,22 @@ function BriefDescription() {
             <Fade>
               <div className="row py-sm-3 rounded">
                 <div className="col-sm img--small align-self-center text--hover">
-                  <a href="https://www.starnow.com/alexmouth/">
+                  <a target="blank" href="https://www.starnow.com/alexmouth/">
                     <img src={starnow} alt="My Starnow profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
-                  <a href="https://www.imdb.com/name/nm2339396/">
+                  <a target="blank" href="https://www.imdb.com/name/nm2339396/">
                     <img src={imdb} alt="My imdb profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
-                  <a href="https://www.youtube.com/watch?v=cCdRROxgQno">
+                  <a target="blank" href="https://www.youtube.com/watch?v=cCdRROxgQno">
                     <img src={vimeo} alt="My vimeo profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
-                  <a href="https://www.pulse.ng/entertainment/movies/celebrity-birthday-nollywood-director-alex-mouth/53pe5t5">
+                  <a target="blank" href="https://www.pulse.ng/entertainment/movies/celebrity-birthday-nollywood-director-alex-mouth/53pe5t5">
                     <img src={pulse} alt="Article on pulse ng" />
                   </a>
                 </div>
