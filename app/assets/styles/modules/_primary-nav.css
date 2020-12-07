@@ -50,6 +50,7 @@
     font-weight: 500;
     display: block;
     padding: 5px 8px;
+    margin-bottom: 5px;
     font-size: 0.8rem;
     background-color: rgba(#fff, 0.9);
 
@@ -58,6 +59,7 @@
     }
 
     @mixin atMedium {
+      margin-bottom: 0;
       color: $fog;
       font-size: 1rem;
       padding: 12px 0;

@@ -8,7 +8,7 @@ function Mnet() {
     <Page title="MNET">
       <div className="container container--absolute-full page-section--more-p page-section--grey page-section">
         <h2 className="text-center text-white mb-5">African Magic Original Movies</h2>
-        <div className="row px-5 justify-content-between">
+        <div className="row px-md-5 justify-content-between">
           {MnetData.map(item => {
             return (
               <Fade key={item.title}>
