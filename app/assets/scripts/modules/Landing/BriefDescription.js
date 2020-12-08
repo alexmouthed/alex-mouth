@@ -36,22 +36,22 @@ function BriefDescription() {
               <div className="row py-sm-3 rounded">
                 <div className="col-sm img--small align-self-center text--hover">
                   <a target="blank" href="https://www.starnow.com/alexmouth/">
-                    <img src={starnow} alt="My Starnow profile" />
+                    <img sizes="640px" src={starnow} alt="My Starnow profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
                   <a target="blank" href="https://www.imdb.com/name/nm2339396/">
-                    <img src={imdb} alt="My imdb profile" />
+                    <img sizes="640px" src={imdb} alt="My imdb profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
                   <a target="blank" href="https://www.youtube.com/watch?v=cCdRROxgQno">
-                    <img src={vimeo} alt="My vimeo profile" />
+                    <img sizes="640px" src={vimeo} alt="My vimeo profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
                   <a target="blank" href="https://www.pulse.ng/entertainment/movies/celebrity-birthday-nollywood-director-alex-mouth/53pe5t5">
-                    <img src={pulse} alt="Article on pulse ng" />
+                    <img sizes="640px" src={pulse} alt="Article on pulse ng" />
                   </a>
                 </div>
               </div>

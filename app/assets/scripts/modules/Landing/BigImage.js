@@ -10,9 +10,7 @@ function BigImage() {
           <h3 className="big-image__subtitle">
             ALEX MOUTH <span className="big-image__icon">{SvgImg.tradeMark}</span>
           </h3>
-          <p className="big-image__description">
-            <a href="https://vimeo.com/172918950"> Film Director</a>
-          </p>
+          <p className="big-image__description">Film Director</p>
           <p>
             <a href="#about-alex" className="btn btn--yellow">
               More about Alex Mouth
