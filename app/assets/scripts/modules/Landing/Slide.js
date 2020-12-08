@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css"
 import SlidingVideo from "./SlidingVideo"
 import SvgImg from "../SVGIMG"
 
-const videoLinks = ["https://www.youtube.com/embed/pe2WMkIbeZA", "https://player.vimeo.com/video/172918950", "https://www.youtube-nocookie.com/embed/IIrfZNRtWpE", "https://player.vimeo.com/video/208876711", "https://www.youtube-nocookie.com/embed/2TXvV9wZxVk", "https://www.youtube-nocookie.com/embed/jTIktE4u7Sc", "https://player.vimeo.com/video/344217252"]
+const videoLinks = ["https://www.youtube-nocookie.com/embed/pe2WMkIbeZA", "https://player.vimeo.com/video/172918950", "https://www.youtube-nocookie.com/embed/IIrfZNRtWpE", "https://player.vimeo.com/video/208876711", "https://www.youtube-nocookie.com/embed/2TXvV9wZxVk", "https://www.youtube-nocookie.com/embed/jTIktE4u7Sc", "https://player.vimeo.com/video/344217252"]
 
 export default class SimpleSlider extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class SimpleSlider extends Component {
       infinite: true,
       speed: 2000,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 8000,
       slidesToShow: 1,
       slidesToScroll: 1,
       lazyLoad: "ondemand"
