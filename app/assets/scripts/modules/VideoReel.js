@@ -29,7 +29,7 @@ function VideoReel() {
               <div key={film.title} id={film.title} className="page-section">
                 <h3 className="mb-5">{film.title + " | " + film.date + " | " + film.role}</h3>
                 <div className="embed-responsive px-4 embed-responsive-21by9 video-slide__iframe mb-3 mx-auto">
-                  <iframe className="embed-responsive-item" src={film.link} frameBorder="0" allowFullScreen></iframe>
+                  <iframe title={film.title} className="embed-responsive-item" src={film.link} frameBorder="0" allowFullScreen></iframe>
                 </div>
               </div>
             )

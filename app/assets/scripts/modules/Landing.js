@@ -1,8 +1,8 @@
 import React, { useEffect } from "react"
 import BigImage from "./Landing/BigImage"
 import BriefDescription from "./Landing/BriefDescription"
-import Filmography from "./Landing/Filmography"
-import Slide from "./Landing/Slide"
+const Filmography = React.lazy(() => import("./Landing/Filmography"))
+const Slide = React.lazy(() => import("./Landing/Slide"))
 import Page from "./Page"
 
 function Landing() {
