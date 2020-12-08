@@ -1,12 +1,18 @@
 const currentTask = process.env.npm_lifecycle_event
 const path = require("path")
+const glob = require("glob")
 const Dotenv = require("dotenv-webpack")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const fse = require("fs-extra")
+const PurgecssPlugin = require("purgecss-webpack-plugin")
 
 const postCSSPlugins = [require("postcss-import"), require("postcss-mixins"), require("postcss-simple-vars"), require("postcss-nested"), require("postcss-hexrgba"), require("autoprefixer")]
+
+const PATHS = {
+  src: path.join(__dirname, "src")
+}
 
 let cssConfig = {
   test: /\.css$/i,
@@ -93,9 +99,25 @@ if (currentTask == "build") {
   }
   config.mode = "production"
   config.optimization = {
-    splitChunks: { chunks: "all" }
+    splitChunks: {
+      cacheGroups: {
+        styles: {
+          name: "styles",
+          test: /\.css$/,
+          chunks: "all",
+          enforce: true
+        }
+      }
+    }
   }
-  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }), new RunAfterCompile())
+  config.plugins.push(
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }),
+    new RunAfterCompile(),
+    new PurgecssPlugin({
+      paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true })
+    })
+  )
 }
 
 module.exports = config
