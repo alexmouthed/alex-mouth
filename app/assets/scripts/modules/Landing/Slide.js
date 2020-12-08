@@ -30,8 +30,8 @@ export default class SimpleSlider extends Component {
               <SlidingVideo title="Bleach Movie Thriller" link={videoLinks[2]} />
               <SlidingVideo title="The Right Reasons" link={videoLinks[3]} />
               <SlidingVideo title="Pavell ft Venci Venc' - Batman(directed by Alex Mouth) Official Video" link={videoLinks[4]} />
-              <SlidingVideo title="Strive" link={videoLinks[5]} />
-              <SlidingVideo link={videoLinks[6]} />
+              <SlidingVideo title="Pavell and Venci Venc ft Alex Mouth" link={videoLinks[5]} />
+              <SlidingVideo title="The Strive Trailer" link={videoLinks[6]} />
             </Slider>
           </div>
         </div>
