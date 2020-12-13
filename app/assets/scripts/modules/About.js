@@ -39,7 +39,9 @@ function About() {
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">He has directed many critically acclaimed movies in the Nigerian movie industry including Silence, a film that won the BON award for Movie of the year. Also working with notable entertainment companies like Multichoice and M net, he was one of the directors of the longest running television series in Nigeria, Tinsel which was positively received and was an economic success. He also continued to work with M NET and Multichoice on many other movies and shows.</p>
+            <p className="lead text-justify px-md-1">
+              He has directed many critically acclaimed movies in the Nigerian movie industry including Silence, a film that won the BON award for Movie of the year. Also working with notable entertainment companies like Multichoice and M net, he was one of the directors of the longest running television series in Nigeria, Tinsel which was positively received and was an economic success. He also continued to work with M NET and Multichoice on many other movies and shows including being the pioneering director of the <a href="/mnet-movies">African Magic Original Films</a> for M-NET and Multichoice.
+            </p>
           </Fade>
 
           <Fade>

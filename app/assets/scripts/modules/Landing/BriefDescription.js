@@ -2,6 +2,8 @@ import React, { useEffect } from "react"
 import Fade from "react-reveal/Fade"
 import alexMouth from "../../../images/alexmouth.webp"
 import starnow from "../../../images/starnow.webp"
+import youtube from "../../../images/youtube.webp"
+import tinselLogo from "../../../images/tinselLogo.webp"
 import vimeo from "../../../images/vimeo-logo.webp"
 import pulse from "../../../images/pulse-nigeria.webp"
 import imdb from "../../../images/imdb.webp"
@@ -28,7 +30,7 @@ function BriefDescription() {
               </div>
             </Fade>
           </div>
-          <div className="col-xl-8 mx-auto py-5">
+          <div className="col-xl-10 mx-auto py-5">
             <Fade left>
               <h3 className="display-4 text-center">AS SEEN ON</h3>
             </Fade>
@@ -37,6 +39,16 @@ function BriefDescription() {
                 <div className="col-sm img--small align-self-center text--hover">
                   <a target="blank" href="https://www.starnow.com/alexmouth/">
                     <img sizes="640px" src={starnow} alt="My Starnow profile" />
+                  </a>
+                </div>
+                <div className="col-sm img--small align-self-center text--hover">
+                  <a target="blank" href="https://en.wikipedia.org/wiki/Tinsel_(TV_series)">
+                    <img sizes="640px" src={tinselLogo} alt="Tinsel" />
+                  </a>
+                </div>
+                <div className="col-sm img--small align-self-center text--hover">
+                  <a target="blank" href="https://www.youtube.com/user/nollywoodfilms">
+                    <img sizes="640px" src={youtube} alt="My youtube profile" />
                   </a>
                 </div>
                 <div className="col-sm img--small align-self-center text--hover">
