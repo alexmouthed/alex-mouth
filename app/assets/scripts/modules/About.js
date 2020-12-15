@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import Page from "./Page"
 import Fade from "react-reveal/Fade"
-import alexmouthFull from "../../images/alexmouth-full.webp"
+import alexmouthFull from "../../images/alexmouth-full.png"
 
 function About() {
   return (

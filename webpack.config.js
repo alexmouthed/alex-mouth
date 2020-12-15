@@ -34,7 +34,7 @@ let jsConfig = {
 }
 
 let imgConfig = {
-  test: /\.(png|jpe?g|gif|webp)$/i,
+  test: /\.(png|jpe?g|gif)$/i,
   use: {
     loader: "file-loader"
   }
