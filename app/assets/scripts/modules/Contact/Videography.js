@@ -6,7 +6,7 @@ function Videography() {
       <h3 className="display-4 text-center mb-3 text-yellow">Videography</h3>
 
       <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="videography" method="post">
-        {/* <input type="hidden" name="form-name" value="videography" /> */}
+        <input type="hidden" name="form-name" value="videography" />
 
         <div className="form-group">
           <label htmlFor="service-type" className="sr-only">
