@@ -5,7 +5,7 @@ function Editing() {
     <>
       <h3 className="display-4 text-center mb-3 text-yellow">Editing</h3>
       <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="editing" method="post">
-        <input type="hidden" name="editing" value="editing" />
+        <input type="hidden" name="form-name" value="editing" />
 
         <div className="form-group">
           <label htmlFor="service-type" className="sr-only">

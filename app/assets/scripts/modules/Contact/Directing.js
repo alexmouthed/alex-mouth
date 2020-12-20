@@ -5,7 +5,7 @@ function Directing() {
     <>
       <h3 className="display-4 text-center mb-3 text-yellow">Directing</h3>
       <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="directing" method="post">
-        <input type="hidden" name="directing" value="directing" />
+        <input type="hidden" name="form-name" value="directing" />
 
         <div className="form-group">
           <label htmlFor="service-type" className="sr-only">
