@@ -22,28 +22,28 @@ function Editing() {
 
         <h6 className="text-rust">Select services to include</h6>
         <p className="custom-control custom-checkbox">
-          <input name="colour-grading" type="checkbox" className="custom-control-input" id="colour-grading" required />
+          <input name="colour-grading" type="checkbox" className="custom-control-input" id="colour-grading" />
           <label className="custom-control-label" htmlFor="colour-grading">
             Colour grading
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="sound-design" type="checkbox" className="custom-control-input" id="sound-design" required />
+          <input name="sound-design" type="checkbox" className="custom-control-input" id="sound-design" />
           <label className="custom-control-label" htmlFor="sound-design">
             Sound design and mixing
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="motion-graphics" type="checkbox" className="custom-control-input" id="motion-graphics" required />
+          <input name="motion-graphics" type="checkbox" className="custom-control-input" id="motion-graphics" />
           <label className="custom-control-label" htmlFor="motion-graphics">
             Motion graphics
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="subtitles" type="checkbox" className="custom-control-input" id="subtitles" required />
+          <input name="subtitles" type="checkbox" className="custom-control-input" id="subtitles" />
           <label className="custom-control-label" htmlFor="subtitles">
             Subtitles
           </label>
