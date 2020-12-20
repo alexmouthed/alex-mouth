@@ -1,11 +1,40 @@
 import React, { useEffect } from "react"
+import { useState } from "react/cjs/react.development"
+import Directing from "./Contact/Directing"
+import Editing from "./Contact/Editing"
+import Videography from "./Contact/Videography"
 import Page from "./Page"
 import SvgImg from "./SVGIMG"
 
 function Contact() {
+  const [service, setService] = useState("")
+
   return (
     <Page title="Contact">
-      <div className="page-section page-section--contact page-section--more-p page-section-min-full">
+      <div className="page-section container px-3 container--absolute-full page-section--contact page-section--more-p page-section-min-full">
+        <form name="contact" className="col-sm-8 page-section col-md-6 col-lg-5 col-xl-4 mx-auto" method="post">
+          <h3 className="display-4 font-weight-bolder text-red text-center text-rust py-4">Book Me</h3>
+          <div className="form-group">
+            <label className="sr-only" htmlFor="service">
+              Select the service you want
+            </label>
+            <select onChange={e => setService(e.target.value)} id="service" className="form-control custom-select">
+              <option value="">Select the service you want</option>
+              <option value="editing">Editing</option>
+              <option value="directing">Directing</option>
+              <option value="videography">Videography</option>
+            </select>
+          </div>
+        </form>
+
+        <div className="z-index height-min">
+          {service === "editing" && <Editing />}
+
+          {service === "directing" && <Directing />}
+
+          {service === "videography" && <Videography />}
+        </div>
+
         <h3 className="display-4 text-light text-center">
           <span className="text--icon">{SvgImg.chat}</span> Get in Touch
         </h3>

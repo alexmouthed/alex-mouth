@@ -43,3 +43,8 @@ a {
 .slick-dots li button:before {
   color: $yellow !important;
 }
+
+.z-index {
+  z-index: 1;
+  position: relative;
+}
