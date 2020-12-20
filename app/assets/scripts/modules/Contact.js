@@ -28,11 +28,7 @@ function Contact() {
         </form>
 
         <div className="z-index height-min">
-          {service === "editing" && <Editing />}
-
-          {service === "directing" && <Directing />}
-
-          {service === "videography" && <Videography />}
+          <Editing />
         </div>
 
         <h3 className="display-4 text-light text-center">
