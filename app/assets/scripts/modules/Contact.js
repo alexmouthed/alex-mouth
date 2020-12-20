@@ -1,8 +1,7 @@
-import React, { useEffect } from "react"
-import { useState } from "react/cjs/react.development"
-import Directing from "./Contact/Directing"
-import Editing from "./Contact/Editing"
-import Videography from "./Contact/Videography"
+import React, { useState, useEffect } from "react"
+import Directing from "./Directing"
+import Editing from "./Editing"
+import Videography from "./Videography"
 import Page from "./Page"
 import SvgImg from "./SVGIMG"
 
