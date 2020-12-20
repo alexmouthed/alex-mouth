@@ -7,7 +7,7 @@ function Directing() {
       <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="directing" method="post">
         <input type="hidden" name="form-name" value="directing" />
 
-        <div className="form-group">
+        <p>
           <label htmlFor="service-type" className="sr-only">
             Select video length
           </label>
@@ -18,49 +18,49 @@ function Directing() {
             <option value="1hr">1 hour or less</option>
             <option value="2hrs">2 hours and above</option>
           </select>
-        </div>
+        </p>
 
-        <div className="form-group mt-3">
+        <p>
           <label htmlFor="movie-budget" className="sr-only">
             Movie budget
           </label>
           <input name="movie-budget" type="text" id="movie-budget" required placeholder="* Enter your budget" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group mt-3">
+        <p>
           <label htmlFor="movie-genre" className="sr-only">
             Movie genre
           </label>
           <input name="movie-genre" type="text" id="movie-genre" required placeholder="* Enter the movie genre" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group mt-3">
+        <p>
           <label htmlFor="location" className="sr-only">
             Enter country and state of production
           </label>
           <input name="location" type="text" id="location" required placeholder="* Enter country and state of production" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group mt-3">
+        <p>
           <label htmlFor="email" className="sr-only">
             Email
           </label>
           <input name="email" type="email" id="email" required placeholder="* Enter your email" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group">
+        <p>
           <label htmlFor="link" className="sr-only">
             Link to reference video
           </label>
           <input name="link" type="text" id="link" placeholder="Link to reference video (optional)" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group">
+        <p>
           <label htmlFor="optional-description" className="sr-only">
             Optional description
           </label>
           <textarea name="description" id="optional-description" placeholder="Description (optional)" cols="30" rows="4" className="form-control"></textarea>
-        </div>
+        </p>
 
         <input type="submit" value="Submit" className="form-control mt-3 btn btn--red" />
       </form>

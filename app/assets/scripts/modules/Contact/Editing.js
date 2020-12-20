@@ -7,7 +7,7 @@ function Editing() {
       <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="editing" method="post">
         <input type="hidden" name="form-name" value="editing" />
 
-        <div className="form-group">
+        <p>
           <label htmlFor="service-type" className="sr-only">
             Select video length
           </label>
@@ -18,57 +18,57 @@ function Editing() {
             <option value="1hr">1 hour or less</option>
             <option value="2hrs">2 hours and above</option>
           </select>
-        </div>
+        </p>
 
         <h6 className="text-rust">Select services to include</h6>
-        <div className="custom-control custom-checkbox">
+        <p className="custom-control custom-checkbox">
           <input name="colour-grading" type="checkbox" className="custom-control-input" id="colour-grading" required />
           <label className="custom-control-label" htmlFor="colour-grading">
             Colour grading
           </label>
-        </div>
+        </p>
 
-        <div className="custom-control custom-checkbox">
+        <p className="custom-control custom-checkbox">
           <input name="sound-design" type="checkbox" className="custom-control-input" id="sound-design" required />
           <label className="custom-control-label" htmlFor="sound-design">
             Sound design and mixing
           </label>
-        </div>
+        </p>
 
-        <div className="custom-control custom-checkbox">
+        <p className="custom-control custom-checkbox">
           <input name="motion-graphics" type="checkbox" className="custom-control-input" id="motion-graphics" required />
           <label className="custom-control-label" htmlFor="motion-graphics">
             Motion graphics
           </label>
-        </div>
+        </p>
 
-        <div className="custom-control custom-checkbox">
+        <p className="custom-control custom-checkbox">
           <input name="subtitles" type="checkbox" className="custom-control-input" id="subtitles" required />
           <label className="custom-control-label" htmlFor="subtitles">
             Subtitles
           </label>
-        </div>
+        </p>
 
-        <div className="form-group mt-3">
+        <p>
           <label htmlFor="email" className="sr-only">
             Email
           </label>
           <input name="email" type="email" id="email" required placeholder="* Enter your email" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group">
+        <p>
           <label htmlFor="link" className="sr-only">
             Link to reference video
           </label>
           <input name="link-to-reference-video" type="text" id="link" placeholder="Link to reference video (optional)" className="form-control" />
-        </div>
+        </p>
 
-        <div className="form-group">
+        <p>
           <label htmlFor="optional-description" className="sr-only">
             Optional description
           </label>
           <textarea name="description" id="optional-description" placeholder="Description (optional)" cols="30" rows="4" className="form-control"></textarea>
-        </div>
+        </p>
 
         <input type="submit" value="Submit" className="form-control mt-3 btn btn--red" />
       </form>
