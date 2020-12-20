@@ -12,7 +12,7 @@ function Contact() {
   return (
     <Page title="Contact">
       <div className="page-section container px-3 container--absolute-full page-section--contact page-section--more-p page-section-min-full">
-        <form className="col-sm-8 page-section col-md-6 col-lg-5 col-xl-4 mx-auto">
+        {/* <form className="col-sm-8 page-section col-md-6 col-lg-5 col-xl-4 mx-auto">
           <h3 className="display-4 font-weight-bolder text-red text-center text-rust py-4">Book Me</h3>
           <div className="form-group">
             <label className="sr-only" htmlFor="service">
@@ -25,7 +25,7 @@ function Contact() {
               <option value="videography">Videography</option>
             </select>
           </div>
-        </form>
+        </form> */}
 
         {/* <div className="z-index height-min">
           {service === "editing" ? <Editing /> : null}
