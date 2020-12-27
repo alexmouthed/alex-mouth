@@ -1,5 +1,5 @@
 .work-item {
-  background-color: $fog;
+  background-color: rgba($fog, 0.4);
   width: 100%;
   margin: 0 0 20px;
   padding: 10px;

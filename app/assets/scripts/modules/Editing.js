@@ -3,8 +3,8 @@ import React, { useEffect } from "react"
 function Editing() {
   return (
     <>
-      <h3 className="display-4 text-center mb-3 text-yellow">Editing</h3>
-      <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="editing" method="post">
+      <h3 className="display-4 text-center mt-5 mb-3 text-rust">Editing</h3>
+      <form className="col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="editing" method="post">
         <input type="hidden" name="form-name" value="editing" />
 
         <p>
@@ -22,30 +22,30 @@ function Editing() {
 
         <h6 className="text-rust">Select services to include</h6>
         <p className="custom-control custom-checkbox">
-          <input name="colour-grading" type="checkbox" className="custom-control-input" id="colour-grading" />
-          <label className="custom-control-label" htmlFor="colour-grading">
-            Colour grading
+          <input name="music-video-editing" type="checkbox" className="custom-control-input" id="music-video-editing" />
+          <label className="custom-control-label" htmlFor="music-video-editing">
+            Music video editing
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="sound-design" type="checkbox" className="custom-control-input" id="sound-design" />
-          <label className="custom-control-label" htmlFor="sound-design">
-            Sound design and mixing
+          <input name="film-video-editing" type="checkbox" className="custom-control-input" id="film-video-editing" />
+          <label className="custom-control-label" htmlFor="film-video-editing">
+            Film video editing
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="motion-graphics" type="checkbox" className="custom-control-input" id="motion-graphics" />
-          <label className="custom-control-label" htmlFor="motion-graphics">
-            Motion graphics
+          <input name="thriller-video" type="checkbox" className="custom-control-input" id="thriller-video" />
+          <label className="custom-control-label" htmlFor="thriller-video">
+            Thriller video
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="subtitles" type="checkbox" className="custom-control-input" id="subtitles" />
-          <label className="custom-control-label" htmlFor="subtitles">
-            Subtitles
+          <input name="photo-editing" type="checkbox" className="custom-control-input" id="photo-editing" />
+          <label className="custom-control-label" htmlFor="photo-editing">
+            Photo editing
           </label>
         </p>
 

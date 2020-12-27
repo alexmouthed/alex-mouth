@@ -3,9 +3,9 @@ import React, { useEffect } from "react"
 function Videography() {
   return (
     <>
-      <h3 className="display-4 text-center mb-3 text-yellow">Videography</h3>
+      <h3 className="display-4 text-center mb-3 text-rust mt-5">Videography</h3>
 
-      <form className="text-white col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="videography" method="post">
+      <form className="col-sm-8 col-md-6 col-lg-5 col-xl-4 mx-auto" name="videography" method="post">
         <input type="hidden" name="form-name" value="videography" />
 
         <p>
@@ -23,30 +23,30 @@ function Videography() {
 
         <h6 className="text-rust">Select services to include</h6>
         <p className="custom-control custom-checkbox">
-          <input name="colour-grading" type="checkbox" className="custom-control-input" id="colour-grading" />
-          <label className="custom-control-label" htmlFor="colour-grading">
-            Colour grading
+          <input name="wedding-video" type="checkbox" className="custom-control-input" id="wedding-video" />
+          <label className="custom-control-label" htmlFor="wedding-video">
+            Wedding videography
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="sound-design" type="checkbox" className="custom-control-input" id="sound-design" />
-          <label className="custom-control-label" htmlFor="sound-design">
-            Sound design and mixing
+          <input name="music-video" type="checkbox" className="custom-control-input" id="music-video" />
+          <label className="custom-control-label" htmlFor="music-video">
+            Music videography
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="motion-graphics" type="checkbox" className="custom-control-input" id="motion-graphics" />
-          <label className="custom-control-label" htmlFor="motion-graphics">
-            Motion graphics
+          <input name="advert-video" type="checkbox" className="custom-control-input" id="advert-video" />
+          <label className="custom-control-label" htmlFor="advert-video">
+            Advertisement video
           </label>
         </p>
 
         <p className="custom-control custom-checkbox">
-          <input name="subtitles" type="checkbox" className="custom-control-input" id="subtitles" />
-          <label className="custom-control-label" htmlFor="subtitles">
-            Subtitles
+          <input name="documentary" type="checkbox" className="custom-control-input" id="documentary" />
+          <label className="custom-control-label" htmlFor="documentary">
+            Documentary
           </label>
         </p>
 
@@ -55,13 +55,6 @@ function Videography() {
             Email
           </label>
           <input name="email" type="email" id="email" required placeholder="* Enter your email" className="form-control" />
-        </p>
-
-        <p>
-          <label htmlFor="link" className="sr-only">
-            Link to reference video
-          </label>
-          <input name="link-to-reference-video" type="text" id="link" placeholder="Link to reference video (optional)" className="form-control" />
         </p>
 
         <p>
