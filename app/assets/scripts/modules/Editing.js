@@ -31,7 +31,7 @@ function Editing() {
         <p className="custom-control custom-checkbox">
           <input name="film-video-editing" type="checkbox" className="custom-control-input" id="film-video-editing" />
           <label className="custom-control-label" htmlFor="film-video-editing">
-            Film video editing
+            Film editing
           </label>
         </p>
 
