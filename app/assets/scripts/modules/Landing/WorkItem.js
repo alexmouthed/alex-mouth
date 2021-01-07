@@ -6,20 +6,24 @@ function WorkItem(props) {
   if (props.left) {
     return (
       <Fade left>
-        <div className="work-item rounded px-4 my-3">
+        <div className="card work-item">
           {props.item.link ? (
             <a className="text--no-decoration" href={`/video-reel#${props.item.title}`}>
-              {props.item.image && <LazyLoadImage className="work-item__image" src={props.item.image} alt={props.item.title} className="image-fluid" />}
-              <h2 className="work-item__title">{props.item.title}</h2>
-              <h3 className="work-item__role">Role: {props.item.role}</h3>
-              <span className="work-item__date">Released {props.item.date}</span>
+              {props.item.image && <LazyLoadImage src={props.item.image} alt={props.item.title} className="image-fluid card-img-top work-item__image" />}
+              <div className="card-body">
+                <h4 className="card-title work-item__title">{props.item.title}</h4>
+                <h5 className="work-item__role">Role: {props.item.role}</h5>
+                <span className="work-item__date">Released {props.item.date}</span>
+              </div>
             </a>
           ) : (
             <div className="text--no-decoration">
-              {props.item.image && <LazyLoadImage className="work-item__image" src={props.item.image} alt={props.item.title} className="image-fluid" />}
-              <h2 className="work-item__title">{props.item.title}</h2>
-              <h3 className="work-item__role">Role: {props.item.role}</h3>
-              <span className="work-item__date">Released {props.item.date}</span>
+              {props.item.image && <LazyLoadImage src={props.item.image} alt={props.item.title} className="image-fluid card-img-top work-item__image" />}
+              <div className="card-body">
+                <h4 className="card-title work-item__title">{props.item.title}</h4>
+                <h5 className="work-item__role">Role: {props.item.role}</h5>
+                <span className="work-item__date">Released {props.item.date}</span>
+              </div>
             </div>
           )}
         </div>
@@ -28,20 +32,24 @@ function WorkItem(props) {
   } else {
     return (
       <Fade right>
-        <div className="work-item py-3 rounded px-4 my-3">
+        <div className="card work-item">
           {props.item.link ? (
             <a className="text--no-decoration" href={`/video-reel#${props.item.title}`}>
-              {props.item.image && <LazyLoadImage className="work-item__image" src={props.item.image} alt={props.item.title} className="image-fluid" />}
-              <h2 className="work-item__title">{props.item.title}</h2>
-              <h3 className="work-item__role">Role: {props.item.role}</h3>
-              <span className="work-item__date">Released {props.item.date}</span>
+              {props.item.image && <LazyLoadImage src={props.item.image} alt={props.item.title} className="image-fluid card-img-top work-item__image" />}
+              <div className="card-body">
+                <h4 className="card-title work-item__title">{props.item.title}</h4>
+                <h5 className="work-item__role">Role: {props.item.role}</h5>
+                <span className="work-item__date">Released {props.item.date}</span>
+              </div>
             </a>
           ) : (
             <div className="text--no-decoration">
-              {props.item.image && <LazyLoadImage className="work-item__image" src={props.item.image} alt={props.item.title} className="image-fluid" />}
-              <h2 className="work-item__title">{props.item.title}</h2>
-              <h3 className="work-item__role">Role: {props.item.role}</h3>
-              <span className="work-item__date">Released {props.item.date}</span>
+              {props.item.image && <LazyLoadImage src={props.item.image} alt={props.item.title} className="image-fluid card-img-top work-item__image" />}
+              <div className="card-body">
+                <h4 className="card-title work-item__title">{props.item.title}</h4>
+                <h5 className="work-item__role">Role: {props.item.role}</h5>
+                <span className="work-item__date">Released {props.item.date}</span>
+              </div>
             </div>
           )}
         </div>

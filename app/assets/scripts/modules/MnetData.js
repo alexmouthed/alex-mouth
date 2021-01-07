@@ -72,7 +72,7 @@ const Data = [
     information: "Different from the norm, there stories intertwined. A story of Love gone sour,molestation, deception and taking a stand between good and bad"
   },
   {
-    title: "wine For Chocolate",
+    title: "Wine For Chocolate",
     role: "Director",
     date: "February 2014",
     information: "An ambitious young chef sets out to dupe his kind and unsuspecting boss. With the help of his girlfriend, the fraud is hatched and executed except for one thing…conscience creeps in."
