@@ -21,7 +21,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/alex-mouth-54a905179/">{SvgImg.linkedin}</a>
         </div>
         <div className="text-center py-3">
-          <small className="text-light lead site-footer__text-content">Copyright &copy; 2020 Alexmouth. All rights reserved. </small>
+          <small className="text-light lead site-footer__text-content">Copyright &copy; 2021 Alexmouth. All rights reserved. </small>
           <Link to="/contact" className="btn btn--red">
             Get in Touch
           </Link>
