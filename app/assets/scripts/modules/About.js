@@ -35,7 +35,7 @@ function About() {
           </Fade>
 
           <Fade>
-            <p className="lead text-justify px-md-1">In 2012, he produced and directed a 15minutes Voters Education Video titled 'My Vote Counts'. The advocacy film stars veteran Nollywood entertainers like Julius Agwu, Adaorah Ukoh and 2shot. The film was internationally lauded and recognized and it was commissioned by USAID Nigeria and was premiered on the Ambassador's Compound in Abuja. In attendance were important personalities from including the U.S Ambassador to Nigeria, the U.S Under Secretary of State and other American and Nigerian delegates.</p>
+            <p className="lead text-justify px-md-1">In 2012, he produced and directed a 15minutes Voters Education Video titled 'My Vote Counts'. The advocacy film stars veteran Nollywood entertainers like Julius Agwu, Adaorah Ukoh and 2shot. The film was internationally lauded and recognized and it was commissioned by USAID Nigeria and was premiered on the Ambassador's Compound in Abuja. In attendance were important personalities from abroad including the U.S Ambassador to Nigeria, the U.S Under Secretary of State and other American and Nigerian delegates.</p>
           </Fade>
 
           <Fade>
